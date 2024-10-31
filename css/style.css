@@ -13,7 +13,7 @@
 
 ::selection {
     color: var(--basic-color);
-    background-color: white;
+    background-color: var(--third-color);
 }
 
 html {
@@ -265,12 +265,6 @@ header a {
 
 .proj-img {
     width: 100%;
-}
-
-@media (max-width:375px) {
-    .portfolio {
-        padding: 0px
-    }
 }
 
 .proj-text {
