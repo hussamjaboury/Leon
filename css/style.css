@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    color: var(--basic-color);
+    background-color: white;
+}
+
 html {
     scroll-behavior: smooth;
     overscroll-behavior: none;
